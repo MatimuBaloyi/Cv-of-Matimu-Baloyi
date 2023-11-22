@@ -110,12 +110,12 @@ function SendEmail(){
 
 	let body = "<br/>Name: " + name + "<br/>Email: " + email + "<br/>Contact Number: " + contact + "<br/>Subject: " + subject + "<br/>Message: " + message;
 
-	let emailsubject = "Hi Scott, you have received a new message from" + name;
+	let emailsubject = "Hi Matimu you have received a new message from" + name;
 	
 	Email.send({
 		SecureToken: "3f7b3618-ff2a-4704-b963-9ea7d393621a",
-		To : 'mzimasimbongwe98@gmail.com',
-		From : "mzimasimbongwe98@gmail.com",
+		To : 'matimuattention00@gmail.com',
+		From : "matimuattention00@gmail.com",
 		Subject : emailsubject,
 		Body : body
 	}).then(
